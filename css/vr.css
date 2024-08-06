@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+#vr-logo{
+    height: 36px;
+    width: 56px;
+}
+#list1{
+    font-family: 'Roboto' sans-serif;
+    color: #323f4b;
+}
+#list2{
+    font-family: 'Roboto' sans-serif;
+    color: #323f4b;
+}
+#list3{
+    font-family: 'Roboto' sans-serif;
+    color: #323f4b;
+}
+#list4{
+    font-family: 'Roboto' sans-serif;
+    color: #323f4b;
+}
+.bg-container{
+    background-image: url(../images/vr-banner-bg.png);
+    height: 100vh;
+    background-size: cover;
+}
+.heading{
+    color: white;
+    font-family: 'Roboto' sans-serif;
+    font-size: xx-large;
+} 
+.but{
+    border-radius: 5px;
+    background-color:#1a2137;
+    font-family: 'Roboto' sans-serif;
+    color: white;
+}
+.bg-features {
+    background-color: white;
+    background-size: cover;
+}
+
+.heading-features {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #1f2933;
+}
+
+.card1 {
+    border-radius: 16px;
+    background-color: whitesmoke;
+    height: 300px; /* Fixed height for all cards */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px; /* Add padding to ensure content fits well */
+}
+
+.image1 {
+    height: 100px;
+    width: 120px;
+}
+
+.head {
+    color: #1a2137;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.25rem;
+    margin-top: 10px;
+}
+
+.para {
+    font-family: 'Roboto', sans-serif;
+    color: #1f2933;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+.product-heading{
+    color: #1f2933;
+    font-family: 'Roboto' sans-serif;
+}
+.product-card{
+    background-image: url(../images/vr-products-headset-img.png);
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    border-radius: 10px;
+}
+.VR-headset{
+    font-family: 'Roboto' sans-serif;
+    color: white;
+}
+.vr-para{
+    font-family: 'Roboto' sans-serif;
+    color: white;
+}
+.butt{
+    border-radius: 15px;
+    width: 120px;
+    height: 40px;
+    border-color: white;
+    border-width: 2px;
+    font-size: 18px;
+    background-color:transparent;
+    font-family: 'Roboto' sans-serif;
+    color: white;
+}
+.product-card1{
+    background-image: url(../images/vr-products-headset-with-controllers-img.png);
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    border-radius: 10px;
+}
+.buttt{
+    border-radius: 15px;
+    width: 120px;
+    height: 40px;
+    border-color: white;
+    border-width: 2px;
+    font-size: 18px;
+    background-color:blue;
+    font-family: 'Roboto' sans-serif;
+    color: white;
+
+}
+/* General styling for blog cards */
+.blogsCard {
+    border-radius: 15px;
+    overflow: hidden; /* Ensure the content stays within the card's borders */
+}
+
+/* Image styling within the blog cards */
+.blogsImage {
+    width: 100%; /* Ensure images take up the full width of the card */
+    height: auto; /* Maintain the aspect ratio of images */
+}
+
+/* Heading and paragraph styling within the blog cards */
+.blogs1heading {
+    font-size: 1.25rem; /* Adjust font size for better readability */
+    font-family: 'Roboto', sans-serif;
+    color: #959ead;
+    font-weight: 700;
+}
+
+.blogs1para {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem; /* Adjust font size for better readability */
+    font-weight: normal;
+    color: #323f4b;
+}
+
+/* Read more link styling within the blog cards */
+.blogshref {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem; /* Adjust font size for better readability */
+    color: blue;
+}
+
+/* Styling for the 'View All' button */
+.all {
+    background-color: #1754a1;
+    border-radius: 10px;
+    width: 120px;
+    height: 40px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 991.98px) {
+    .card1 {
+        height: 250px;
+        padding: 15px;
+    }
+    .image1 {
+        height: 80px;
+        width: 100px;
+    }
+    .head {
+        font-size: 1.1rem;
+    }
+    .para {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .card1 {
+        height: 200px;
+        padding: 10px;
+    }
+    .image1 {
+        height: 70px;
+        width: 90px;
+    }
+    .head {
+        font-size: 1rem;
+    }
+    .para {
+        font-size: 0.8rem;
+    }
+}
